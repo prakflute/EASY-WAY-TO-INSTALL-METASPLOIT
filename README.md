@@ -1,24 +1,21 @@
-# Metasploit Installation Scripts
+# Easy Way to Install Metasploit
 
-Ye project Metasploit ko Termux par asani se install karne ke liye scripts ka set hai. Aap in scripts ka istemal karke apne system par Metasploit ko jaldi aur bina kisi pareshani ke install kar sakte hain.
-
-## Features
-
-- Asan aur seedhe tarike se Metasploit install karne ki process
-- Multiple scripts jo alag-alag installation steps handle karte hain
-- System ke liye zaroori dependencies ka automatic installation
+This guide provides step-by-step instructions for installing Metasploit on your system using Termux and Ubuntu.
 
 ## Prerequisites
 
-- Termux app aapke Android device par install hona chahiye.
-- Internet connection zaroori hai.
+Make sure you have Termux installed on your Android device.
 
-## Installation Instructions
-pkg install git unzip
+## Installation Steps
 
+To begin, install Git by running the command `pkg install git`. After that, clone the repository using the command `git clone https://github.com/prakflute/EASY-WAY-TO-INSTALL-METASPLOIT`. Once the cloning is complete, navigate to the cloned directory with `cd EASY-WAY-TO-INSTALL-METASPLOIT`.
 
-1. **Repository Clone Karo**:
-   ```bash
-   git clone https://github.com/prakflute/EASY-WAY-TO-INSTALL-METASPLOIT
+Next, run the installation scripts by executing `bash 1.sh` followed by `bash 2.sh`. Then, log in to Ubuntu using proot-distro with the command `proot-distro login ubuntu`. 
 
-   
+Now, open a new terminal and type `cd ~` to navigate to your home directory. Retrieve the real path of the cloned directory by using the command `realpath EASY-WAY-TO-INSTALL-METASPLOIT`. Copy the output result and, while in the Ubuntu session, paste it in the command `cd your_path_result`, replacing `your_path_result` with the actual path obtained.
+
+After changing the directory, run the final installation script with `bash 3.sh`. Finally, start Metasploit by typing `msfconsole`.
+
+## Conclusion
+
+You have successfully installed Metasploit using Termux and Ubuntu. You can now start using Metasploit for your penetration testing needs. For further assistance, please refer to the documentation or raise an issue in the GitHub repository.
