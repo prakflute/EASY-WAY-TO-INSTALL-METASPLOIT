@@ -8,53 +8,53 @@ Make sure you have Termux installed on your Android device.
 
 ## Installation Steps
 
-To begin, install Git by running the command
+To begin, install Git by running the command:
 
-`pkg install git`
+`pkg install git` [COPY]
 
-After that, clone the repository using the command 
+After that, clone the repository using the command:
 
-`git clone https://github.com/prakflute/EASY-WAY-TO-INSTALL-METASPLOIT`. 
+`git clone https://github.com/prakflute/EASY-WAY-TO-INSTALL-METASPLOIT` [COPY]
 
-Once the cloning is complete, navigate to the cloned directory with 
+Once the cloning is complete, navigate to the cloned directory with:
 
-`cd EASY-WAY-TO-INSTALL-METASPLOIT`.
+`cd EASY-WAY-TO-INSTALL-METASPLOIT` [COPY]
 
-Next, run the installation scripts by executing 
+Next, run the installation scripts by executing:
 
-`bash 1.sh`
+`bash 1.sh` [COPY]
 
-followed by
+followed by:
 
-`bash 2.sh`. 
+`bash 2.sh` [COPY]
 
-Then, log in to Ubuntu using proot-distro with the command 
+Then, log in to Ubuntu using proot-distro with the command:
 
-`proot-distro login ubuntu`. 
+`proot-distro login ubuntu` [COPY]
 
-Now, open a new terminal and type
+Now, open a new terminal and type:
 
-`cd ~`
+`cd ~` [COPY]
 
-to navigate to your home directory. Retrieve the real path of the cloned directory by using the command 
+to navigate to your home directory. Retrieve the real path of the cloned directory by using the command:
 
-`realpath EASY-WAY-TO-INSTALL-METASPLOIT`.
+`realpath EASY-WAY-TO-INSTALL-METASPLOIT` [COPY]
 
-Copy the output result and, while in the Ubuntu session, paste it in the command 
+Copy the output result and, while in the Ubuntu session, paste it in the command:
 
-`cd your_path_result`, replacing `your_path_result`
+`cd your_path_result` [COPY]
 
-with the actual path obtained.
+replacing `your_path_result` with the actual path obtained.
 
-After changing the directory, run the final installation script with
+After changing the directory, run the final installation script with:
 
-`bash 3.sh`. 
+`bash 3.sh` [COPY]
 
-Now it will take more minimum 10-15 minutes (depends on your internet speed) 
+Now it will take a minimum of 10-15 minutes (depends on your internet speed).
 
-Finally, start Metasploit by typing
+Finally, start Metasploit by typing:
 
-`msfconsole`.
+`msfconsole` [COPY]
 
 ## Conclusion
 
