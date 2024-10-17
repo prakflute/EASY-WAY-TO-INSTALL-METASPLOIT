@@ -50,6 +50,8 @@ After changing the directory, run the final installation script with
 
 `bash 3.sh`. 
 
+Now it will take more minimum 10-15 minutes (depends on your internet speed) 
+
 Finally, start Metasploit by typing
 
 `msfconsole`.
