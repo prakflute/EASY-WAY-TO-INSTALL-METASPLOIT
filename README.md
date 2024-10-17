@@ -9,6 +9,7 @@ Make sure you have Termux installed on your Android device.
 ## Installation Steps
 
 To begin, install Git by running the command
+
 `pkg install git`. 
 
 After that, clone the repository using the command 
